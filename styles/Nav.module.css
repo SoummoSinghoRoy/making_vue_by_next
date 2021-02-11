@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+@media (min-width: 1400px){ .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1783px!important;
+  }
+}
+
+.logo_text{
+  color: rgb(69, 76, 83);
+  font-size: 25px!important;
+  font-family: 'Dosis',sans-serif;
+}
+.logo_text:hover{
+  color: rgb(69, 76, 83);
+  font-size: 26px!important;
+  font-family: 'Dosis',sans-serif;
+}
+.has_search .form_control {
+  padding-left: 2.375rem;
+}
+.form_control{
+  border: 1px solid #e3e3e3!important;
+  border-radius: 70px!important;
+  height: 29px;
+}
+.form_control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: darkcyan!important;
+  outline: 0;
+  box-shadow: none!important;
+}
+.has_search .form_control_feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 1.8rem;
+  text-align: center;
+  pointer-events: none;
+  color:#140d0d;
+}
+.text_item{
+  color: #304455;
+  font-size: 15px;
+}
+.text_item:hover{
+  color: #304455;
+}
