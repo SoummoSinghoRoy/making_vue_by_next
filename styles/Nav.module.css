@@ -10,15 +10,25 @@
   }
 }
 
+.top_header_bg{
+  background: #42b983;
+}
+.top_heading{
+  color: #d6ffec;
+}
+
 .logo_text{
   color: rgb(69, 76, 83);
-  font-size: 25px!important;
+  font-size: 26px!important;
   font-family: 'Dosis',sans-serif;
 }
 .logo_text:hover{
   color: rgb(69, 76, 83);
   font-size: 26px!important;
   font-family: 'Dosis',sans-serif;
+}
+.toggler{
+  color: rgb(69, 76, 83);
 }
 .has_search .form_control {
   padding-left: 2.375rem;
@@ -44,7 +54,7 @@
   line-height: 1.8rem;
   text-align: center;
   pointer-events: none;
-  color:#140d0d;
+  color:#e3e3e3;
 }
 .text_item{
   color: #304455;
@@ -52,4 +62,10 @@
 }
 .text_item:hover{
   color: #304455;
+}
+.mobile_text_item{
+  font-size: 13.5px;
+}
+.mobile_text_item span:hover{
+  border-bottom: 2px solid darkgreen;
 }
